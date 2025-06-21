@@ -1,0 +1,47 @@
+Dear students, 
+
+Please find attached the peer evaluations of your fellow students for the recorded presentation (assignment 2) and the questions. The order between the students' comments is random but consistent throughout the evaluation questions. My own question is the last one. As said before, you are free to select any of the questions.
+
+Best regards,
+Toon Calders
+---
+Group 3
+Paper: On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
+
+* My question to the presenters is the following:
+1. Why are countries that don't benefit from large language models often the ones most affected by their negative impacts?
+
+2. How do these models still work with spelling mistakes when you said changing 'not' to 'nöt' causes the model to fail?
+
+3. To help illustrate the question, Imagine 2 scenarios:<strong>Scenario 1</strong>: There exist one-two LLMs the size of ChatGPT which have been trained on all publicly available data and keep getting updated over time with new information. However no other models are being trained.<strong>Scenario 2</strong>: There exist thousands of small language models which are all very tailored to a particular field, or area of expertise, like History, Math, Programming, etc. Their size is as big as it needs to get in order to cover the topic entirely, but they have not been trained on any irrelevant information.<br>I would like to hear your opinion. <strong><em>Do you believe that training multiple, smaller and very specific language models is overall better (as a regular user, as well as environmentally) than having one-two enormous LLM trained with all publicly available data&nbsp;&nbsp;and being updated frequently?</em></strong>
+
+4. Do the issues discussed in the paper still affect the most recent models that have reasoning capabilities? Do you feel that the concerns raised in the paper have been taken into account ever since? 
+
+* The presentation was clear and easy to follow: 4-5-4
+* The quality of the slides was high: 4-4-5
+* The students were clearly knowledgeable regarding the content of the paper: 4-5-5
+
+* Positive points about the presentation:
+1. - Some of the slides had really nice images and visuals—those made it more fun and helped me understand better.
+   - The whole presentation had a clear and logical flow, which made it easy to follow.
+   - Relevant examples: the presentation contained good and relevant examples, which made it easier to follow and understand the theory
+
+2. - Presentation was very easy to follow: all 3 presenters explained things in an easy way where you could understand everything.
+   - Good use of examples: throughout the presentation, good examples were given to help clarify some parts.
+   - Last presenter had very good slides: the slides had nice images to demonstrate what he was talking about, without being overcrowded.
+
+3. - The topic is well presented, with a flow that showcases well the various issues that come with large models and the training they have gone through.
+   - I like the overall limited use of text and the way you focused on explaining the topic through examples.
+   - Finally, I like the use of icons as a way of describing the topic instead of writing it in text.
+
+
+* Points for improvement; constructive criticism:
+1. - Some parts were a little hard for me to understand. Maybe a simple example or picture could help make things clearer.
+   - A few slides had a lot of text. It might be easier to follow if you use just a few key words, or split the information across two slides.
+   - At times, it sounded like you were reading from the slides. If you try to explain things in your own words, it can feel more natural and easier for others to follow.
+
+2. - The presentation could be more coherent: it seemed a bit like it was 3 different parts for the different presenters, which could also be seen in the slides.
+   - Slides of first 2 parts could be improved: for the first part, it seemed like sometimes the slides didn't support the speech, but had other information. For the second part, there could sometimes be a bit more images to help keep the attention.
+    - The problem statement wasn't that clear: it took some time to figure out what the paper was actually about, as there wasn't a clear goal stated at the beginning.
+
+3. Although I do like the slides with just icons, you may want to be careful with doing this approach excessively. This is mostly because it may not always be possible to get the main context of the slide without also listening to the presentation. In such cases, I believe that having the key points written on the side of the icons should make the slide more complete, reminding the context and the point you are trying to make.
