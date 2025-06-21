@@ -36,8 +36,7 @@ def main():
         except Exception as e:
             print(f"[ERROR] Failed to process {filename}: {e}")
 
-    print(f"\n✅ Done! Processed {len(pdf_files)} PDFs.")
-    print(f"📄 Output saved to: {TXT_OUTPUT_FOLDER}/")
+    print(f"Processed {len(pdf_files)} PDFs into: {TXT_OUTPUT_FOLDER}/")
 
 if __name__ == "__main__":
     main()
