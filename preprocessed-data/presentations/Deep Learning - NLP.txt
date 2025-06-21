@@ -1,0 +1,146 @@
+[Slide 1]
+Neural Networks Toon Calders Dept. Computer Science University of Antwerp toon.calders@uantwerpen.be
+
+[Slide 2]
+Building Block: Perceptron ▪A perceptron is a simplified model of a biological neuron. ▪A neuron receives “input” from different other cells (other neurons or “sensors”) ▪If total input exceeds a threshold, the neuron will “spike” (i.e., emit a signal) • Human brain consists out of approximately 86 billion neurons Picture from Wikipedia (http://en.wikipedia.org/wiki/Chemical_synapse)
+
+[Slide 3]
+Perceptron 3 Σ  W1 W2 W3 X1 X2 X3 Output Input Weights Output ▪A perceptron takes inputs and computes a function ▪Output depends on weights and an activation function b
+
+[Slide 4]
+Perceptron 4 Σ  W1 W2 W3 X1 X2 X3 Output Input Weights Output ▪A perceptron takes inputs and computes a function ▪Output depends on weights and an activation function b
+
+[Slide 5]
+Perceptron 5 ▪A perceptron takes inputs and computes a function ▪Output depends on weights and an activation function ▪Example of an activation function: ▪The perceptron on last page computes the function:
+
+[Slide 6]
+Perceptron 6 ▪A perceptron takes inputs and computes a function ▪Output depends on weights and an activation function ▪Example of an activation function: ▪The perceptron on last page computes the function:
+
+[Slide 7]
+Examples - Perceptrons 7 Σ  3 1 X Y -5
+
+[Slide 8]
+Examples - Perceptrons 8 Σ  -1 1 X Y 0
+
+[Slide 9]
+Examples - Perceptrons 9 ▪Each choice of W1, W2, B corresponds to another function, mapping (x,y) to a number
+
+[Slide 10]
+Perceptron Learning - Algorithm ▪Given a dataset, learn the parameters of a perceptron that produces similar output x1 x2 y 1 3 0 1 4 0 2 4 0 4 2 1 5 1 1
+
+[Slide 11]
+Perceptron Learning - Algorithm ▪Given a dataset, learn the parameters of a perceptron that produces similar output ▪Perceptron learning = learning weights = training the network ▪Iteratively refine the model until it fits the examples ▪Training proceeds as follows: ▪Start with random weights ▪Repeat until “good enough”: For each training example (x,y,label): slightly change the weights to improve prediction example
+
+[Slide 12]
+Extending to Multiple Perceptrons ▪One perceptron has limited representational power ▪We can combine multiple perceptrons to create a more complex neural network that can express more complex functions x1 xn … y1 x2 y2 ym y Hidden layer
+
+[Slide 13]
+Example : Multi-Layer Perceptron Network x1 x2 y1 1 -1 1 0 0 1 y2 -2 1 -1.5 y 1 1
+
+[Slide 14]
+Training a Neural Network 14 ▪Exactly as for one perceptron: ▪Neural Network learning = learning weights = training the network ▪Iteratively refine the model until it fits the examples ▪Training proceeds as follows: ▪Start with random weights ▪Repeat until “good enough”: For each training example (x,y,label): slightly change the weights to improve prediction ▪Training a NN can be time-consuming example 1 One complete run through the dataset is called an “epoch”
+
+[Slide 15]
+Deep Learning 15 ▪Deep learning = learning of large NNs ▪NNs were already studied in the 60s ▪What’s new?
+
+[Slide 16]
+What is so great about Neural Networks ? ▪Little to no model bias ▪They can present any function (if sufficiently large) ▪If there exists a mapping from features to labels, a neural network can in principle learn it ▪Built-in feature engineering ▪No need for inventing complex features to capture meaningful patterns in the data ▪But, comes at a cost! ▪Lot and lots of data required! ▪Huge computational demands ▪Expensive hardware
+
+[Slide 17]
+Overview 17 • “Traditional” NLP • Word embeddings • Transformers
+
+[Slide 18]
+Textual data 18 https://www.imdb.com/title/tt0210075/reviews?ref_=tt_urv X1 X2 X3 X4 … label 0.3 0.5 1.4 -0.2 … POS 1.4 0.2 1.7 2.4 … NEG … … … … … … M X1 X2 X3 X4 … label 0.3 0.5 1.4 -0.2 … ???
+
+[Slide 19]
+Representation for Text 19 ▪Preprocessing: Girlfight follows a project dwelling New York high school girl from a sense of futility … girlfight follows a project dwelling newyork high school girl from a sense of … Punctuation removal, Lower casing, Entity recognition Stopword removal, Tokenization, Counting girlfight 1 follows 3 project 2 dwelling 1 newyork 2 high 2 school 3 girl 7 sense 2 …
+
+[Slide 20]
+Representation for Text 20 ▪“Bag-of-words” dwelling newyork way high good … label 1 2 0 2 0 … neg 0 3 2 7 2 … pos … neg … … … … … … … girlfight 1 follows 3 project 2 dwelling 1 newyork 2 high 2 school 3 girl 7 sense 2 …
+
+[Slide 21]
+Overview 21 • “Traditional” NLP • Word embeddings • Transformers
+
+[Slide 22]
+Neural Nets for Natural Language Processing 22 ▪Word embedding = representation of words/texts as a vector of numbers ▪Banana → (0.3, 5.8, 7.3, 0.1) ▪Father → (0.4, 0.7, 1.2, 0.4) ▪Baby → (0.3, 0.6, 1.5, 3.0) ▪… ▪Why? Hundreds of algorithms work with numbers. Word2Vec is like an “adaptor”
+
+[Slide 23]
+Embeddings are Not Random 23 ▪Words used in similar contexts should have similar vectors delicious aweful good bad intelligent obnoxious tasty dense rotten PEOPLE POSITIVE NEGATIVE excellent trustworthy FOOD
+
+[Slide 24]
+How are Embeddings Learned from Data ? ▪We turn the problem into a game Guess the word ! Florida man charged for assault with a deadly weapon after throwing alligator into Wendy’s drive thru ?
+
+[Slide 25]
+How are Embeddings Learned from Data ? ▪AI will learn a model to predict the word ▪Easy to generate test data: Florida man charged for assault charged man charged for assault with for charged for assault with a assault for assault with a deadly with ? ? ? ?
+
+[Slide 26]
+How are Embeddings Learned from Data ? ▪AI will learn a model to predict the word ▪The structure of the model is fixed: ▪Becomes an optimization problem Florida (0.5, 0.3, 0.7, 0.9) Man (0.2, 0.1, 0.6, 0.8) For (0.5, 0.4, 0.1, 0.9) assault (0.1, 0.9, 0.3, 0.2) Model 1 Model 1 Model 1 Model 1 Model 2 sought blamed for a an convicted charged the man men … Florida P 0.1 0.1 0 0 0 0.1 0.7 0 0 0 0 0
+
+[Slide 27]
+How are Embeddings Learned from Data ? ▪AI will learn a model to predict the word ▪Easy to generate test data ▪The structure of the model is fixed ▪We are only interested in a part of the model: This part of the model captures semantic information in a vector that allows to play the “guessing game” Florida (0.5, 0.3, 0.7, 0.9) Model 1
+
+[Slide 28]
+Word2vec Captures Semantic Information 28 𝑚𝑎𝑛−𝑤𝑜𝑚𝑎𝑛 ≈𝑘𝑖𝑛𝑔−𝑞𝑢𝑒𝑒𝑛 𝑠𝑙𝑜𝑤𝑒𝑟−𝑠𝑙𝑜𝑤 ≈𝑠ℎ𝑜𝑟𝑡𝑒𝑟−𝑠ℎ𝑜𝑟𝑡
+
+[Slide 29]
+Amazing Applications: Sentiment Analysis 29 https://www.micc.unifi.it/projects/advanced-web-applications/sentiment-analysis-of-tweets-from-twitter/
+
+[Slide 30]
+Demo word embeddings 30 ▪https://projector.tensorflow.org/
+
+[Slide 31]
+Example: CV Screening ? ▪First transforms data into numbers via WordToVec: ▪Then apply any of the classification methods we have seen This Photo by Unknown Author is licensed under CC BY-NC-ND transform C1 C2 C3 C4 … Hire? 0.5 7.3 0.34 3.1 … Yes
+
+[Slide 32]
+Overview 32 • “Traditional” NLP • Word embeddings • Transformers
+
+[Slide 33]
+Transformers ▪Until the advent of transformers, LSTM-based RNNs were state-of-the- art for sequence-to-sequence problems ▪Problem with the RNN architecture: ▪Hard to take long-term dependencies into account ▪The transformer architecture makes the path between the information needed to understand/translate a token shorter
+
+[Slide 34]
+Transformer: High level view Alammar, J (2018). The Illustrated Transformer [Blog post]. Retrieved from https://jalammar.github.io/illustrated- transformer/
+
+[Slide 35]
+Attention Mechanism ▪The attention mechanism allows the network to concentrate on specific tokens to enrich the encoding of a token ▪Example: The animal did not cross the road because it was too tired. ▪Who or what is too tired? ▪Example: The animal did not cross the road because it was too wide. ▪Who or what is too wide?
+
+[Slide 36]
+Decoder ▪The decoder produces the next word based on input and preceding words ▪A similar architecture is used encoder decoder I am a student <start> je
+
+[Slide 37]
+Decoder ▪The decoder produces the next word based on input and preceding words ▪A similar architecture is used encoder decoder I am a student <start> je suis
+
+[Slide 38]
+Decoder ▪The decoder produces the next word based on input and preceding words ▪A similar architecture is used encoder decoder I am a student <start> je suis une
+
+[Slide 39]
+Decoder ▪The decoder produces the next word based on input and preceding words ▪A similar architecture is used encoder decoder I am a student <start> je suis étudiante une
+
+[Slide 40]
+Decoder ▪The decoder produces the next word based on input and preceding words ▪A similar architecture is used encoder decoder I am a student <start> je suis étudiante une <stop>
+
+[Slide 41]
+Training a transformer ▪We need a huge corpus of input-output pairs I am a student – Je suis une étudiante I am Manuel from Barcelona - Je suis Manuel de Barcelone I learn English from a book - J'apprends l'anglais à partir d'un livre … ▪For a chatbot: learn to predict the next word/sentence in a conversation
+
+[Slide 42]
+BERT ▪BERT stands for Bidirectional Encoder Representations from Transformers ▪Trained in a very peculiar way such that the embedding vectors contain a lot of information ▪missing words ▪context of a word ▪consistency between sentences Devlin, Jacob, et al. "Bert: Pre-training of deep bidirectional transformers for language understanding." arXiv preprint arXiv:1810.04805 (2018).
+
+[Slide 43]
+https://youtu.be/ioGry-89gqE
+
+[Slide 44]
+OpenAI GPT Model ▪The OpenAI GPT ▪General-purpose ▪Pre-trained ▪Transformer ▪Trained with next-word prediction ▪only attend to previous tokens ▪predict next word based on final embedding Easy to obtain training data; no need for bilingual corpus Embeddings themselves are of interest; e.g., build spam prediction on top Devlin, Jacob, et al. "Bert: Pre-training of deep bidirectional transformers for language understanding." arXiv preprint arXiv:1810.04805 (2018).
+
+[Slide 45]
+OpenAI GPT-2’s Famous Example https://openai.com/blog/better-language-mode
+
+[Slide 46]
+46 Building an application based on LLMs https://medium.com/artefact-engineering-and-data-science/how-to-train-a- language-model-from-scratch-without-any-linguistic-knowledge-11acaa933e84
+
+[Slide 47]
+Zero-Shot Learning 47 ▪LLMs are trained on huge amounts of data – surprising powerful
+
+[Slide 48]
+Example Zero-Shot Learning 48 Instead of learning a model for a task, design a prompt: “I bought a bike from you 3 years ago; could you retrieve the make?” Annotate the request; add context: “Take the following context into account: User purchased: [List of user transactions] Product catalogue: [List of products] Answer the following question by mr X: I bought a bike from you 3 years ago; could you retrieve the make?” Send anotated request to a general-purpose LLM
+
+[Slide 49]
+Conclusion ▪Natural Language Processing dominated by Deep Neural Network Models • Word embeddings → classification • Transformers → Sequence to sequence tasks • Translation, chat-bots, summarization, … ▪Similarly as for image recognition networks can pre-trained models be downloaded, often for free • New standard : offered as a service ? ▪Some issues to take into account: ▪Fine-tuning on company data may cause privacy issues ▪LLMs can show unpredictable behavior, biases, stereotypes

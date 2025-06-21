@@ -1,0 +1,140 @@
+[Slide 1]
+Attention Is All You Need NeurIPS 2017 Authors: Ashish Vaswani (Google Brain) et al. Presenter: Toon Calders
+
+[Slide 2]
+2 transformers
+
+[Slide 3]
+Introduction Problem domain: ▪Learning Sequence Transduction Models ▪e.g. translation, Q&A ▪New model architecture: the transformer ▪Encoder-decoder architecture ▪Systematic use of attention mechanism ▪No convolutions nor recurrence ▪Good performance on Machine Translation tasks
+
+[Slide 4]
+“Old” Sequence-to-Sequence Models ▪Common approach before transformers: Recurrent Neural Network architectures based on LSTMs* * LSTM: Long short term memory
+
+[Slide 5]
+“Old” Sequence-to-Sequence Models ▪Common approach before transformers: Recurrent Neural Network architectures based on LSTMs* Encoder takes a token and a vector representing the history and produces a new history vector Decoder takes the previous word and a vector representing the history and produces a vector and an output token Special token denoting the end of the sentence All encoders are the same function (share weights) All decoders are the same function (share weights) * LSTM: Long short term memory
+
+[Slide 6]
+“Old” Sequence – To – Sequence Models 6 ▪Common techniques: ▪Recurrent Neural Networks based on LSTMs ▪Convolutional techniques ▪Disadvantages: ▪Long dependencies hard to capture ▪Limited possibility for parallellism ▪Solution for long dependencies: ▪Attention mechanisms Cho, K., van Merrienboer, B., Bahdanau, D., and Bengio, Y. (2014b). On the properties of neural ¨ machine translation: Encoder–Decoder approaches. In Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation.
+
+[Slide 7]
+Attention Mechanism 7 Bahdanau, Dzmitry, Kyung Hyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and translate." 3rd International Conference on Learning Representations, ICLR 2015. 2015. h1 h2 h3 h4 α1 Expresses importance of h1 history for the first output token
+
+[Slide 8]
+Attention Mechanism 8 Bahdanau, Dzmitry, Kyung Hyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and translate." 3rd International Conference on Learning Representations, ICLR 2015. 2015. h1 h2 h3 h4 α1 α2 Expresses importance of this history for the first token
+
+[Slide 9]
+Attention Mechanism 9 Bahdanau, Dzmitry, Kyung Hyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and translate." 3rd International Conference on Learning Representations, ICLR 2015. 2015. h1 h2 h3 h4 α2 α3 α4 c1 Context for first output token Becomes part of the input α1
+
+[Slide 10]
+Attention Mechanism 10 Bahdanau, Dzmitry, Kyung Hyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and translate." 3rd International Conference on Learning Representations, ICLR 2015. 2015. h1 h2 h3 h4 α2 α3 α4 c2 α1
+
+[Slide 11]
+Attention Mechanism 11 Bahdanau, Dzmitry, Kyung Hyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and translate." 3rd International Conference on Learning Representations, ICLR 2015. 2015. h1 h2 h3 h4 α2 α3 α4 c3 α1
+
+[Slide 12]
+New Model Proposed in the Paper 12 ▪Encoder – Decoder structure ▪Each layer has an encoding for each token ▪“Enriched” representation in next layer computed on previous layer ▪Layers are connected using attention mechanism ▪No convolutional layers, recurrent neural nets, LSTM ▪Hence: Attention is all you need!
+
+[Slide 13]
+13 Attention is all you need Self - attention Self - attention <START> L’attention est tout ce L’attention est tout ce dont Masked Self - attention Masked Self - attention Encoder - decoder - attention … … … … … encoding decoding encoding Transformer
+
+[Slide 14]
+Attention Mechanism: Intuition 14 Representation in layer n Representation in layer n+1 Representation of “it” attends to that of “animal”, “street”, …
+
+[Slide 15]
+“Scaled Dot-Product” Attention 15 ▪ : dmodel – dimensional vector ▪Transformed into query, key, value ▪Using learned matrices WQ, WK, and WV Self - attention Xi Query = XiWQ Key = XiWK Value = XiWV dmodel dk dv dmodel x dv dmodel x dk dmodel x dk
+
+[Slide 16]
+“Scaled Dot-Product” Attention 16 ▪ : dmodel – dimensional vector ▪Transformed into query, key, value ▪Using learned matrices WQ, WK, and WV Self - attention Key Value K1 V1 K2 V2 K3 V3 K4 V4 K5 V5 Imaginary lookup table with all exposed information in this layer
+
+[Slide 17]
+“Scaled Dot-Product” Attention 17 ▪ : dmodel – dimensional vector ▪Transformed into query, key, value ▪Using learned matrices WQ, WK, and WV Self - attention Key Value K1 V1 K2 V2 K3 V3 K4 V4 K5 V5 We want to compute a new embedding for the first token Compare the query of the first token to all keys; compute similarity and take a weighted average
+
+[Slide 18]
+“Scaled Dot-Product” : Implementation 18 X1 X2 X3 X4 X5
+
+[Slide 19]
+“Scaled Dot-Product” : Implementation 19 X1 X2 X3 X4 X5 WQ WK WV Q K V QKT
+
+[Slide 20]
+“Scaled Dot-Product” : Implementation 20 X1 X2 X3 X4 X5 WQ WK WV Q K V QKT Sim(Q,K) = ΣiQiKi = QKT
+
+[Slide 21]
+“Scaled Dot-Product” : Implementation 21 X1 X2 X3 X4 X5 WQ WK WV Q K V Softmax(QKT/cte)
+
+[Slide 22]
+“Scaled Dot-Product” : Implementation 22 Scaled(QKT)V X1 X2 X3 X4 X5 WQ WK WV Q K V X1 X2 X3 X4 X5 Softmax(QKT/cte) Embedding for the next layer
+
+[Slide 23]
+Multi-Headed Attention 23 Concatenate WO Final transformation to combine information of the different heads Embedding vectors for the next level
+
+[Slide 24]
+Encoder – Decoder attention 24 ▪Very similar construction ▪key, value come from output layer encoder ▪query from decoder layer
+
+[Slide 25]
+Decoder Attention: Masked Self-Attention 25 ▪Again, very similar ▪Key, value, query from decoder layer ▪Tokens can only attend to previous tokens When predicting this token We shoudn’t use information from here
+
+[Slide 26]
+Masked Self-Attention 26 Scaled(QKT)V X1 X2 X3 X4 X5 WQ WK WV Q K V X1 X2 X3 X4 X5 Softmax(QKT/cte) Before multiplying with V, similarities with keys of tokens “from the future” are masked out
+
+[Slide 27]
+Transformer - Complete Architecture 27 Byte Pair Encoding for tokenization Linear transformation Encode position in embedding (see later) Self-attention Add attention to previous embedding; normalize weights in layer Fully-connected network (one hidden layer) Again add instead of replace Masked Self-attention Byte Pair Encoding for tokenization. Target language Linear transformation Encode position in embedding (see later) Add attention to previous embedding; normalize weights in layer Encoder – Decoder attention Linear transformation & softmax turning into token probabilities idem Decoding tokens to text
+
+[Slide 28]
+Byte Pair Encoding 28 ▪Turn text into numbers ▪fixed (subword-)tokenization scheme ▪Every sequence of characters can be tokenized Example: My name is Toon. ➔ ['My', ' name', ' is', ' To', 'on', '.'] [3666, 1438, 318, 1675, 261, 13] My name is Toon! ➔ ['My', ' name', ' ', ' is', ' ', ' To', 'on', '!’] [3666, 1438, 220, 318, 220, 1675, 261, 0]
+
+[Slide 29]
+▪BPE has 37K tokens ▪37K dim. 1-hot encoding ➔lower-dim. representation (trained) 29 'My’ -1.5 3.3 -2.1 8.5 2.1 -2.6 8.1 0.3 -0.2 2.4 -2.1 6.6 2.1 7.2 2.1 -2.6 8.1 3.3 -2.1 8.6 2.1 2.4 -2.4 2.1 -2.6 8.1 -9.3 7.9 3.4 -2.1 6.6 2.1 -4.2 1.3 9.2 … … -3.4 2.1 -2.6 8.1 -2.3 -2.2 3.2 3.4 -2.1 8.6 2.1 2.1 -2.6 8.1 1 2 3,665 3,666 3,667 36,999 37,000 … … Input Embedding Input token BPE ➔ 3666 2.4 -2.4 2.1 -2.6 8.1 -9.3 7.9 Token embedding
+
+[Slide 30]
+Positional Encoding 30 ▪Order of tokens is important: ▪Woman, without her man, is nothing. ▪Woman, without her, man is nothing. ▪BPE: ▪[48081, 11, 1231, 607, 582, 11, 318, 2147, 13] ▪[48081, 11, 1231, 607, 11, 582, 318, 2147, 13] ▪Gives the same key-value pairs ▪Is token “Woman” subject of the sentence or not? ▪Position of comma is essential!
+
+[Slide 31]
+Positional Encoding 31 ▪To maintain position: add position encoding to token 2.4 -2.4 2.1 -2.6 8.1 -9.3 7.9 'My' … … … 3666 2.4 -2.4 2.1 -2.6 8.1 -9.3 7.9 'My' 3666 + 0.1 0.7 1.0 0.7 0.1 -0.5 -0.7 -0.3 -0.7 -1 -0.7 -0.3 0 0.3 … Fixed position vectors + 2.5 -1.7 3.1 -1.9 8.2 -9.8 7.2 2.1 -3.1 1.1 -3.3 7.8 -9.3 8.2 Position-encoded vectors
+
+[Slide 32]
+Positional Encoding 32 ▪To maintain position: add position encoding to token 1.0 1.4 -3.5 2.7 6.1 -4.3 -3.4 'O' … … … 153 2.4 -2.4 2.1 -2.6 8.1 -9.3 7.9 'My' 3666 + 0.1 0.7 1.0 0.7 0.1 -0.5 -0.7 -0.3 -0.7 -1 -0.7 -0.3 0 0.3 … + 1.1 2.1 -2.5 3.4 6.2 -4.8 -4.1 2.1 -3.1 1.1 -3.3 7.8 -9.3 8.2
+
+[Slide 33]
+Number of Parameters? Base Model 33 ▪N=6, dmodel=512, dff=2048, h=8, dk=64, dv=64 ▪Input & output embedding: ≈ 19M ▪They are shared ▪Shared vocabulary of 37,000 tokens ▪512-dimensional representation
+
+[Slide 34]
+Number of Parameters? Base Model 34 ▪N=6, dmodel=512, dff=2048, h=8, dk=64, dv=64 ▪Attention mechanism: ≈ 6 x 1M ▪8 heads • Each matrix WQ, WK, WV : 512 x 64 ▪Matrix WO : 512 x 512 = 262,144 ▪Feed Forward: ≈ 6 x 2.1M ▪(512+1) x 2048 + (2048+1) x 512 ▪Total: ≈ 18.3M
+
+[Slide 35]
+Number of Parameters? Base Model 35 ▪N=6, dmodel=512, dff=2048, h=8, dk=64, dv=64 ▪Attention mechanism: ≈ 2 x 6 x 1M ▪Encoder – decoder attention ▪Masked self-attention ▪Feed Forward: ≈ 6 x 2.1M ▪(512+1) x 2048 + (2048+1) x 512 ▪Total: ≈ 24.6M
+
+[Slide 36]
+Number of Parameters? Base Model 36 ▪N=6, dmodel=512, dff=2048, h=8, dk=64, dv=64 ▪Total: ▪Input/output embedding: ≈ 19M ▪Encoder: ≈ 18.3M ▪Decoder: ≈ 24.6M ▪≈ 61.9M parameters * * Paper states 65M Parameters ; this is due to estimations and some details we omitted (Norm)
+
+[Slide 37]
+Number of Parameters? 37 ▪Base Model ▪N=6, dmodel=512, dff=2048, h=8, dk=64, dv=64 ▪≈ 65M parameters ▪Big Model ▪N=6, dmodel=1024, dff=4096, h=16, dk=64, dv=64 ▪≈ 213M parameters
+
+[Slide 38]
+Training Regime 38 ▪Dataset consists of pairs: ▪Text A = [a1,a2,…,an] ▪Text B = [b1,b2,…,bm] ▪Input to the network: ▪[a1,a2,…,an,<BOS>,b1,b2,…,bm] ▪Expected output: ▪[b1,b2,…,bm]
+
+[Slide 39]
+Training Regime 39 ▪Objective function: logloss ▪Model output = 1 distribution over tokens per output slot ▪Reward high probabilities for the correct token ▪Adam optimizer ▪Different regularization techniques were used ▪Dropout, Label smoothing ▪Learning rate varied during training ▪First increase, then decrease
+
+[Slide 40]
+Testing: Generating All Answers 40 ▪Generate response tokens one by one ▪“autoregression” Encoder Decoder Attention is all you need <START> L’attention
+
+[Slide 41]
+41 Encoder Decoder Attention is all you need <START> L’attention L’attention est Testing: Generating All Answers ▪Generate response tokens one by one ▪“autoregression”
+
+[Slide 42]
+Testing: Generating All Answers 42 ▪Generate response tokens one by one ▪“autoregression” Encoder Decoder Attention is all you need <START> L’attention est L’attention est tout
+
+[Slide 43]
+Testing: Generating All Answers 43 ▪Generate response tokens one by one ▪“autoregression” Encoder Decoder Attention is all you need <START> L’attention est tout L’attention est tout ce
+
+[Slide 44]
+Experimental Results 44 ▪2 translation tasks: EN-DE and EN-FR ▪BLEU score used to assess quality of result (higher is better)
+
+[Slide 45]
+Conclusion 45 ▪New architecture Transformer proposed ▪Based on attention mechanism ▪No recurrent neural nets, convolutions needed ▪Experiments show promising behavior ▪Translation task: ▪Outperforms state-of-the art in accuracy ▪For lower or comparable training costs ▪… and the rest is history …
+
+[Slide 46]
+https://paperswithcode.com/task/machine-translation
+
+[Slide 47]
+Sources 47 ▪Vaswani, A. et al. (2017). Attention is all you need. Advances in Neural Information Processing Systems. ▪Cho, K. et al. (2014). On the properties of neural machine translation: Encoder–Decoder approaches. In Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation. ▪Bahdanau, D. et al. (2015). "Neural machine translation by jointly learning to align and translate." 3rd International Conference on Learning Representations ▪Papineni, K. et al. (2002). Bleu: a method for automatic evaluation of machine translation. In Proceedings of the 40th annual meeting of the Association for Computational Linguistics (pp. 311- 318). ▪Yang, J. et al. (2024) "Harnessing the power of llms in practice: A survey on chatgpt and beyond." ACM Transactions on Knowledge Discovery from Data 18.6: 1-32. ▪Raschka, S. (2024). Build a Large Language Model (From Scratch). Simon and Schuster. ▪https://www.kaggle.com/datasets/mohamedlotfy50/wmt-2014-english-german ▪https://paperswithcode.com/task/machine-translation ▪https://jalammar.github.io/illustrated-transformer/
