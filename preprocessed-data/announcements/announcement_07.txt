@@ -1,12 +1,25 @@
-[Title] Please find below the groups and paper assignment for batch 2 of the papers. Ple
+[Title] Videos for commenting and one question
 [Author] Toon Calders
-[Date] Unknown
 
-Please find below the groups and paper assignment for batch 2 of the papers. Please upload your videos on or before April 2nd in BlackBoard. Videos are expected to be about 20 minutes (+- 2 minutes). Once the videos are submitted, each of you will be assigned one for commenting.
+Videos for commenting and one question
+Dear students,
 
 
 
-Apart from 1 person who only selected one paper, everyone got a paper of their choice. Given that 19 students cannot be divided in more than 1 or less than 19 equally-sized groups without harming any of you, one group has 1 extra member. Their presentation can be 25 minutes instead of 20 minutes to accomodate for the extra team member.
+Many thanks to all of you for submitting the videos for batch 2 of the papers in time. Each of you will now get assigned one presentation for commenting and posing one question. Please find below the assignment of presentations to each of you. This assignment is individual. That is, each person is expected to write an individual evaluation of the presentation.
+
+These evaluations will not be anonimous, although when sharing the feedbacks with the groups I will not reveil which comment is from whom (but given that the assignment is known, privacy is limited). Be honest, but constructive in your feedback.
+
+You are also expected to formulate one question about the paper. Make sure that your question allows for an answer of reasonable length (for instance: "Did they use GPT 3.5 or GPT 4o?" is not a good question as it can be answered in 1 second.)
+
+
+
+Where to find what?
+
+The presentations are in the folder "Videos for assignment 2" on the course page on Blackboard.
+To upload your evaluation and question, there will be an assignment in the folder "Tests, peer evaluations and upload zone".
+The paper that got assigned to you: see below.
+Deadline for submitting the evaluation: 18/4 23:59.
 
 
 
@@ -16,69 +29,62 @@ Toon Calders
 
 
 
----
-
-
-
 Measuring Fairness with Biased Rulers: A Comparative Study on Bias Metrics for Pre-trained Language Models
 
-Konstantina Ellina
+Saartje	Herman
 
-Kenneth Takoudjou Nde
+Inte	Vleminckx
 
-Shakhzodbek Bakhtiyorov
+Martina	Janeva
 
 
 
 Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes
 
-Stein Vandenbroeke
+Takoudjou Nde	Kenneth
 
-Hala Alramli
+Leirs	Liam
 
-Pablo De Vicente Abad
+Niels	Van den Broeck
 
-Norea Sjunnesson
+Konstantina	Ellina
 
 
 
 On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
 
-Marie Ndagijimana
+Arbesa	Jashanica
 
-Achraf Yandouzi
+Ilias	Sarikakis
 
-Liam Leirs
+Xhejms	Galanxhi
 
 
 
 An empirical study of LLaMA3 quantization: from LLMs to MLLMs
 
-Arbesa Jashanica
+Pablo	De Vicente Abad
 
-Saartje Herman
+Norea	Sjunnesson
 
-Inte Vleminckx
+Jonas	De Maeyer
 
 
 
 Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
 
-Ilias Sarikakis
+Stein	Vandenbroeke
 
-Xhejms Galanxhi
+Marie	Ndagijimana
 
-Martina Janeva
+Asima	Bibi
 
 
 
 Red Teaming Language Models with Language Models
 
-Jonas De Maeyer
+Shakhzodbek	Bakhtiyorov
 
-Niels Van den Broeck
+Hala	Alramli
 
-Asima Bibi
-
-
-Videos for commenting and one question
+Achraf	Yandouzi

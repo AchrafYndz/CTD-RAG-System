@@ -1,19 +1,16 @@
-[Title] For the second assignment we will again work in groups of three students that wi
+[Title] Assignment papers and groups: batch 2
 [Author] Toon Calders
-[Date] 19/3
 
-For the second assignment we will again work in groups of three students that will be assigned by me. Please indicate by tomorrow which papers have your preference. You find the form and the papers on Blackboard, under the folder "Papers Batch 2".
+Assignment papers and groups: batch 2
+Dear students,
 
 
 
-For the second assignment the planning is as follows:
+Please find below the groups and paper assignment for batch 2 of the papers. Please upload your videos on or before April 2nd in BlackBoard. Videos are expected to be about 20 minutes (+- 2 minutes). Once the videos are submitted, each of you will be assigned one for commenting.
 
-19/3 : Pick a paper the latest tomorrow
-20/3: You will receive your group and paper assignment
-2/4: Submit a video of 20 minutes discussing one or a few of the main points of the paper. Your presentation does not have to cover the complete paper. When selecting what to present, take into account: focus (better to cover a few things in detail than many things superficially), significance of the selected topic(s) (Pick the important contributions in the paper; avoid niche details), coherence. For the video you may but do not have to film the presenter. It is perfectly fine to use, for instance, the record function in powerpoint to make the video.
-3/4-18/4 (this is during the easter break): Everyone will get assigned one video from another group and formulate feedback and provide suggestions for how to improve the presentation. You are also requested to suggest one question you would like the students to answer.
-21/4-25/4: your group will receive feedback from 3 other students and myself, and 3 questions. At this stage you may improve your presentation. For one of the 3 questions you receive, answer it in a separate video (Guideline: not more than 5 minutes is expected for the second video).
 
+
+Apart from 1 person who only selected one paper, everyone got a paper of their choice. Given that 19 students cannot be divided in more than 1 or less than 19 equally-sized groups without harming any of you, one group has 1 extra member. Their presentation can be 25 minutes instead of 20 minutes to accomodate for the extra team member.
 
 
 
@@ -21,4 +18,68 @@ Best regards,
 
 Toon Calders
 
-Assignment papers and groups: batch 2
+
+
+---
+
+
+
+Measuring Fairness with Biased Rulers: A Comparative Study on Bias Metrics for Pre-trained Language Models
+
+Konstantina Ellina
+
+Kenneth Takoudjou Nde
+
+Shakhzodbek Bakhtiyorov
+
+
+
+Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes
+
+Stein Vandenbroeke
+
+Hala Alramli
+
+Pablo De Vicente Abad
+
+Norea Sjunnesson
+
+
+
+On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
+
+Marie Ndagijimana
+
+Achraf Yandouzi
+
+Liam Leirs
+
+
+
+An empirical study of LLaMA3 quantization: from LLMs to MLLMs
+
+Arbesa Jashanica
+
+Saartje Herman
+
+Inte Vleminckx
+
+
+
+Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
+
+Ilias Sarikakis
+
+Xhejms Galanxhi
+
+Martina Janeva
+
+
+
+Red Teaming Language Models with Language Models
+
+Jonas De Maeyer
+
+Niels Van den Broeck
+
+Asima Bibi

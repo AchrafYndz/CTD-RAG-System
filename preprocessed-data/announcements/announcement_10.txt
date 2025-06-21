@@ -1,21 +1,16 @@
-[Title] Please find below the planning for the next weeks of the course:
+[Title] Third assignment
 [Author] Toon Calders
-[Date] 24/4
 
-Please find below the planning for the next weeks of the course:
-
-
-
-Thursday 24/4:
-8:30 Invited speaker Ewoenam Tokpo (former phd student, currently working as an ML-engineer at CrossLang)
-After the invited talk I will introduce the third and last assignment
-Wednesday 30/4:
-9:00 Invited speaker Pieter Delobelle (Aleph Alpha). Pieter is one of the authors of the popular Dutch language model RobBERT.
-No lectures on 8/5 and 15/5 ; time to work on the project
-Week of 19/5 : final presentations
+Third assignment
+Dear students,
 
 
-Also the third project will be a group project, but now you will be allowed to chose the group division yourself. The deadline for the third assignment is negotiable; groups with multiple project deadlines in May but few exams in June can propose a date in the exam period.
+
+The explanation that was given in class and the slides have been included on the course website (you will find it as the last point of "course content"). Please note that you are requested to send, by email, your group composition and your proposal to me by Sunday 27. (sending later is allowed, but then you will also receive your feedback later).
+
+
+
+If there is any unclarity please do not hesitate to contact me. Ideally with concrete questions like: "We would like to do ...  Is his suitable for the third assignment."
 
 
 
