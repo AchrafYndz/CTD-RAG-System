@@ -53,6 +53,14 @@ h2, h3 {
     border-radius: 5px !important;
     background-color: white !important;
     color: #333 !important;
+    caret-color: var(--uantwerp-red) !important;
+}
+
+.stTextArea > div > div > textarea:focus {
+    outline: none !important;
+    border: 2px solid var(--uantwerp-red) !important;
+    box-shadow: 0 0 0 1px var(--uantwerp-red) !important;
+    caret-color: var(--uantwerp-red) !important;
 }
 
 /* Placeholder text styling */
