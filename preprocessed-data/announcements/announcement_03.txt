@@ -1,0 +1,149 @@
+[Title] Please find below the assignment of papers and groups. Everyone received a paper
+[Author] Toon Calders
+[Date] 27/2
+
+Please find below the assignment of papers and groups. Everyone received a paper of their choice. For the dates it was unfortunately not possible to make a perfect assignment for everyone. I expect every group member to do part of the presentation and every presente to be familiar with all parts of the paper, also those that are presented by another group member.
+
+
+
+I am aware that it may not always be easy working together with other students that do not necessarily share the same academic background. I hope (and expect), however, that most groups will be able to work together fine. Nevertheless, in case there are serious issues, please contact me in time and we will find a way to deal with the issue (for instance: as a last resort we could decide dividing up the paper into subtopics that can be handled by subgroups).
+
+
+
+You are free to proceed as you prefer, but nevertheless here are some suggestions:
+
+To get things started smoothly, I'd like to propose that for each paper the student that is listed first, initiates the first contact. 
+A reasonable plan of approach could be:
+
+Plan a first meeting to discuss the content of the paper; make sure everyone in the group has a good grasp of the content of the paper. Are there things that are unclear and need to be explored further by inspecting other sources?
+Make a rough presentation plan; what exactly will you cover, which examples will you use (maybe construct new examples?) Divide up the work/work on it together.
+Bring together everyone's contributions ; unify format, structure, style, level of detail.
+Dry-run the presentation on beforehand.
+A reasonable rule-of-thumb for an experienced speaker is to have roughly 1 slide per 2 minutes. Inexperienced speakers may want to use more slides, but avoid having more than 1 slide per minute. (Slides that together form an animation count as 1.)
+
+
+
+Best regards,
+
+Toon Calders
+
+
+
+27/2
+
+
+
+Jonas De Maeyer
+
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+Ndagijimana Marie Ange
+
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+Takoudjou Nde Kenneth
+
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+
+
+
+
+Niels Van den Broeck
+
+Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+
+Shakhzodbek Bakhtiyorov
+
+Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+
+Stein Vandenbroeke
+
+Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+
+
+
+
+
+6/3
+
+
+
+Achraf Yandouzi
+
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+
+Asima Bibi
+
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+
+Ilias Sarikakis
+
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+
+
+
+
+
+Liam Leirs
+
+Language Models are Few-Shot Learners (GPT-3)
+
+Arbesa
+
+Language Models are Few-Shot Learners (GPT-3)
+
+Hala Alramli
+
+Language Models are Few-Shot Learners (GPT-3)
+
+
+
+
+
+13/3
+
+
+
+Norea Sjunnesson
+
+Training language models to follow instructions with human feedback
+
+Xhejms Galanxhi
+
+Training language models to follow instructions with human feedback
+
+Saartje Herman
+
+Training language models to follow instructions with human feedback
+
+
+
+
+
+Saitcan Baskol
+
+Sparks of Artificial General Intelligence: Early experiments with GPT-4
+
+Pablo de Vicente Abad
+
+Sparks of Artificial General Intelligence: Early experiments with GPT-4
+
+Inte Vleminckx
+
+Sparks of Artificial General Intelligence: Early experiments with GPT-4
+
+
+
+
+
+TBD:
+
+
+
+Ellina Konstantina
+
+Byte-pair encoding
+
+
+Lecture tomorrow (20/2) starts at 9:30

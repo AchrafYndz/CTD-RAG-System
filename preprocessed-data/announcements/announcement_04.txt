@@ -1,0 +1,13 @@
+[Title] Given that there will be only one presentation tomorrow, the lecture will start 
+[Author] Toon Calders
+[Date] 20/3
+
+Given that there will be only one presentation tomorrow, the lecture will start at 9:30 instead of 8:30.
+
+
+
+Best regards,
+
+Toon Calders
+
+No lecture 20/3 because of honorary doctorate Jure Leskovec
