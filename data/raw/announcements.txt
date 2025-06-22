@@ -1,0 +1,810 @@
+Presentation preferences
+Dear students,
+
+
+
+As announced in today's lecture, you can enter your choice of paper via the following form:
+
+https://docs.google.com/forms/d/e/1FAIpQLSdHtxjqAx_KfmKT0wjouChhRCpnATRza86WMAS03SdI5cMmbg/viewform?usp=header
+
+Please submit your answers by the end of the week such that I can distribute the papers on Monday.
+
+
+
+Just a small recap regarding the evaluation of the course:
+
+your presentation and the way you answer the questions are graded. Part of the grade will be peer-evaluation within your group.
+at the end of the lecture you will get a small test (online; please bring your laptop) on the topic of the lecture. This will be a multiple choice test and one open question. The goal of this permanent evaluation component is to stimulate active participation during the presentations of your fellow students. My aim is that these will be "easy points" for attentive students.
+Due to the nature of permanent evaluation, you are expected to attend all lectures. If you do not attend, you cannot participate in the permanent evaluation for that lecture which will result in 0 for the test.
+
+
+
+The final grade will be computed as follows:
+
+3 points: small tests at the end of the lecture
+5 points: presentation 1
+5 points: presentation 2
+7 points: poster/demo
+
+
+Best regards,
+
+Toon Calders
+
+Paper assignments
+Dear students,
+
+
+
+Please find below the assignment of papers and groups. Everyone received a paper of their choice. For the dates it was unfortunately not possible to make a perfect assignment for everyone. I expect every group member to do part of the presentation and every presente to be familiar with all parts of the paper, also those that are presented by another group member.
+
+
+
+I am aware that it may not always be easy working together with other students that do not necessarily share the same academic background. I hope (and expect), however, that most groups will be able to work together fine. Nevertheless, in case there are serious issues, please contact me in time and we will find a way to deal with the issue (for instance: as a last resort we could decide dividing up the paper into subtopics that can be handled by subgroups).
+
+
+
+You are free to proceed as you prefer, but nevertheless here are some suggestions:
+
+To get things started smoothly, I'd like to propose that for each paper the student that is listed first, initiates the first contact. 
+A reasonable plan of approach could be:
+
+Plan a first meeting to discuss the content of the paper; make sure everyone in the group has a good grasp of the content of the paper. Are there things that are unclear and need to be explored further by inspecting other sources?
+Make a rough presentation plan; what exactly will you cover, which examples will you use (maybe construct new examples?) Divide up the work/work on it together.
+Bring together everyone's contributions ; unify format, structure, style, level of detail.
+Dry-run the presentation on beforehand.
+A reasonable rule-of-thumb for an experienced speaker is to have roughly 1 slide per 2 minutes. Inexperienced speakers may want to use more slides, but avoid having more than 1 slide per minute. (Slides that together form an animation count as 1.)
+
+
+
+Best regards,
+
+Toon Calders
+
+
+
+27/2
+
+
+
+Jonas De Maeyer
+
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+Ndagijimana Marie Ange
+
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+Takoudjou Nde Kenneth
+
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+
+
+
+
+Niels Van den Broeck
+
+Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+
+Shakhzodbek Bakhtiyorov
+
+Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+
+Stein Vandenbroeke
+
+Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+
+
+
+
+
+6/3
+
+
+
+Achraf Yandouzi
+
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+
+Asima Bibi
+
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+
+Ilias Sarikakis
+
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+
+
+
+
+
+Liam Leirs
+
+Language Models are Few-Shot Learners (GPT-3)
+
+Arbesa
+
+Language Models are Few-Shot Learners (GPT-3)
+
+Hala Alramli
+
+Language Models are Few-Shot Learners (GPT-3)
+
+
+
+
+
+13/3
+
+
+
+Norea Sjunnesson
+
+Training language models to follow instructions with human feedback
+
+Xhejms Galanxhi
+
+Training language models to follow instructions with human feedback
+
+Saartje Herman
+
+Training language models to follow instructions with human feedback
+
+
+
+
+
+Saitcan Baskol
+
+Sparks of Artificial General Intelligence: Early experiments with GPT-4
+
+Pablo de Vicente Abad
+
+Sparks of Artificial General Intelligence: Early experiments with GPT-4
+
+Inte Vleminckx
+
+Sparks of Artificial General Intelligence: Early experiments with GPT-4
+
+
+
+
+
+TBD:
+
+
+
+Ellina Konstantina
+
+Byte-pair encoding
+
+
+Lecture tomorrow (20/2) starts at 9:30
+Dear students,
+
+
+
+Given that there will be only one presentation tomorrow, the lecture will start at 9:30 instead of 8:30.
+
+
+
+Best regards,
+
+Toon Calders
+
+No lecture 20/3 because of honorary doctorate Jure Leskovec
+Dear students,
+
+
+
+As announced during the last lecture, there will be no class for "Current Trends in Data Science and Artificial Intelligence" this week to give everyone the opportunity to attend the master class of prof. Jure Leskovec. See the invitation below. You can register for the event, which is warmly recommended, via the following link: https://forms.uantwerpen.be/en/events/masterclass-leskovec/ .
+
+
+
+For the next assignment (paper), I will send out the details in a separate mail in a moment.
+
+
+
+Best regards,
+
+Toon Calders
+
+
+
+
+
+Honorary degree in Science 2025
+
+
+
+
+
+
+The Faculty of Science of the University of Antwerp would like to welcome you to the masterclass and official conferral of the honorary degree to
+Prof. Jure Leskovec. 
+
+
+
+
+
+
+Masterclass: Graphs, data and AI - Prof. Jure Leskovec
+Date: Thursday, 20 March 2025
+
+Time: 9:30 a.m.
+
+Location: Auditorium Stadsfeestzaal Antwerp, Meir 78, 2000 Antwerp
+
+
+
+Nominator: Prof. Bart Goethals
+
+
+
+
+
+
+
+
+
+
+
+Register for the masterclass
+
+
+
+
+
+
+
+Programme
+9:30 a.m. – Welcome
+
+9:50 a.m. – Opening words by Prof. Bart Goethals, nominator
+
+10:00 a.m. – Masterclass "Graphs, Data, and AI" by Prof. Jure Leskovec
+
+11:00 a.m. – Reception
+
+
+
+The event will be held in English. 
+
+
+
+More information about the programme 
+
+
+
+View the full programme of the honorary degrees 2025 of the University of Antwerp
+
+Second assignment
+Dear students,
+
+
+
+For the second assignment we will again work in groups of three students that will be assigned by me. Please indicate by tomorrow which papers have your preference. You find the form and the papers on Blackboard, under the folder "Papers Batch 2".
+
+
+
+For the second assignment the planning is as follows:
+
+19/3 : Pick a paper the latest tomorrow
+20/3: You will receive your group and paper assignment
+2/4: Submit a video of 20 minutes discussing one or a few of the main points of the paper. Your presentation does not have to cover the complete paper. When selecting what to present, take into account: focus (better to cover a few things in detail than many things superficially), significance of the selected topic(s) (Pick the important contributions in the paper; avoid niche details), coherence. For the video you may but do not have to film the presenter. It is perfectly fine to use, for instance, the record function in powerpoint to make the video.
+3/4-18/4 (this is during the easter break): Everyone will get assigned one video from another group and formulate feedback and provide suggestions for how to improve the presentation. You are also requested to suggest one question you would like the students to answer.
+21/4-25/4: your group will receive feedback from 3 other students and myself, and 3 questions. At this stage you may improve your presentation. For one of the 3 questions you receive, answer it in a separate video (Guideline: not more than 5 minutes is expected for the second video).
+
+
+
+
+Best regards,
+
+Toon Calders
+
+Assignment papers and groups: batch 2
+Dear students,
+
+
+
+Please find below the groups and paper assignment for batch 2 of the papers. Please upload your videos on or before April 2nd in BlackBoard. Videos are expected to be about 20 minutes (+- 2 minutes). Once the videos are submitted, each of you will be assigned one for commenting.
+
+
+
+Apart from 1 person who only selected one paper, everyone got a paper of their choice. Given that 19 students cannot be divided in more than 1 or less than 19 equally-sized groups without harming any of you, one group has 1 extra member. Their presentation can be 25 minutes instead of 20 minutes to accomodate for the extra team member.
+
+
+
+Best regards,
+
+Toon Calders
+
+
+
+---
+
+
+
+Measuring Fairness with Biased Rulers: A Comparative Study on Bias Metrics for Pre-trained Language Models
+
+Konstantina Ellina
+
+Kenneth Takoudjou Nde
+
+Shakhzodbek Bakhtiyorov
+
+
+
+Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes
+
+Stein Vandenbroeke
+
+Hala Alramli
+
+Pablo De Vicente Abad
+
+Norea Sjunnesson
+
+
+
+On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
+
+Marie Ndagijimana
+
+Achraf Yandouzi
+
+Liam Leirs
+
+
+
+An empirical study of LLaMA3 quantization: from LLMs to MLLMs
+
+Arbesa Jashanica
+
+Saartje Herman
+
+Inte Vleminckx
+
+
+
+Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
+
+Ilias Sarikakis
+
+Xhejms Galanxhi
+
+Martina Janeva
+
+
+
+Red Teaming Language Models with Language Models
+
+Jonas De Maeyer
+
+Niels Van den Broeck
+
+Asima Bibi
+
+
+Videos for commenting and one question
+Dear students,
+
+
+
+Many thanks to all of you for submitting the videos for batch 2 of the papers in time. Each of you will now get assigned one presentation for commenting and posing one question. Please find below the assignment of presentations to each of you. This assignment is individual. That is, each person is expected to write an individual evaluation of the presentation.
+
+These evaluations will not be anonimous, although when sharing the feedbacks with the groups I will not reveil which comment is from whom (but given that the assignment is known, privacy is limited). Be honest, but constructive in your feedback.
+
+You are also expected to formulate one question about the paper. Make sure that your question allows for an answer of reasonable length (for instance: "Did they use GPT 3.5 or GPT 4o?" is not a good question as it can be answered in 1 second.)
+
+
+
+Where to find what?
+
+The presentations are in the folder "Videos for assignment 2" on the course page on Blackboard.
+To upload your evaluation and question, there will be an assignment in the folder "Tests, peer evaluations and upload zone".
+The paper that got assigned to you: see below.
+Deadline for submitting the evaluation: 18/4 23:59.
+
+
+
+Best regards,
+
+Toon Calders
+
+
+
+Measuring Fairness with Biased Rulers: A Comparative Study on Bias Metrics for Pre-trained Language Models
+
+Saartje	Herman
+
+Inte	Vleminckx
+
+Martina	Janeva
+
+
+
+Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes
+
+Takoudjou Nde	Kenneth
+
+Leirs	Liam
+
+Niels	Van den Broeck
+
+Konstantina	Ellina
+
+
+
+On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
+
+Arbesa	Jashanica
+
+Ilias	Sarikakis
+
+Xhejms	Galanxhi
+
+
+
+An empirical study of LLaMA3 quantization: from LLMs to MLLMs
+
+Pablo	De Vicente Abad
+
+Norea	Sjunnesson
+
+Jonas	De Maeyer
+
+
+
+Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
+
+Stein	Vandenbroeke
+
+Marie	Ndagijimana
+
+Asima	Bibi
+
+
+
+Red Teaming Language Models with Language Models
+
+Shakhzodbek	Bakhtiyorov
+
+Hala	Alramli
+
+Achraf	Yandouzi
+
+Results for first presentation were mailed
+Dear students,
+
+
+
+The results for the first presentation were sent by mail to your university mail addresses. The preliminary results for the second presentation (the recording) will follow soon. The peer evaluations including the questions will be sent Saturday, once the deadline is over. For those who haven't yet submitted their evaluation: please do so by tomorrow.
+
+
+
+Best regards,
+
+Toon Calders
+
+Course planning for the next weeks
+Dear students,
+
+
+
+Please find below the planning for the next weeks of the course:
+
+
+
+Thursday 24/4:
+8:30 Invited speaker Ewoenam Tokpo (former phd student, currently working as an ML-engineer at CrossLang)
+After the invited talk I will introduce the third and last assignment
+Wednesday 30/4:
+9:00 Invited speaker Pieter Delobelle (Aleph Alpha). Pieter is one of the authors of the popular Dutch language model RobBERT.
+No lectures on 8/5 and 15/5 ; time to work on the project
+Week of 19/5 : final presentations
+
+
+Also the third project will be a group project, but now you will be allowed to chose the group division yourself. The deadline for the third assignment is negotiable; groups with multiple project deadlines in May but few exams in June can propose a date in the exam period.
+
+
+
+Best regards,
+
+Toon Calders
+
+Third assignment
+Dear students,
+
+
+
+The explanation that was given in class and the slides have been included on the course website (you will find it as the last point of "course content"). Please note that you are requested to send, by email, your group composition and your proposal to me by Sunday 27. (sending later is allowed, but then you will also receive your feedback later).
+
+
+
+If there is any unclarity please do not hesitate to contact me. Ideally with concrete questions like: "We would like to do ...  Is his suitable for the third assignment."
+
+
+
+Best regards,
+
+Toon Calders
+
+Poster presentation
+Dear students,
+
+
+
+Could each group please let me know if they plan to present their poster next week, or prefer to postpone (propose a date)?
+
+In that way I can see a bit whether we may need 1 session or 2 sessions. Please also indicate which slot you would prefer: Wednesday 8:30-10:30 or Thursday 8:30-10:30.
+
+
+
+Best regards,
+
+Toon Calders
+
+Posters
+Dear students,
+
+
+
+I received some questions regarding the format for the posters. Here are some answers.
+
+
+
+As said before, it is not necessary to have a poster professionally printed; it is ok to have, for instance 8 A4-pages combined together. The format of a poster is typically A1 (59.4 x 84.1 cm), which corresponds to 8 A4 pages in landscape, organized in a grid of 2 (width) by 4 (height). If you prefer to have your poster in landscape, that's fine as well. But, to allow for maximal parallellism, please print your poster (either as one big poster, or as up to 8 A4's combined together). There will be tape and magnets available to attach the posters.
+
+
+
+Some advice on how to create a poster can be found, for instance, here: https://guides.nyu.edu/posters ; diverse poster templates, here: www.posternerd.com . Alternatively you could use powerpoint and change the slide size in the design tab. An easy way to quickly generate a poster is then to copy-paste individual slides (as a picture) from another presentation into the poster. Alternatively, an example poster made by a former phd student of mine (in powerpoint) has been attached as an example.
+
+
+
+Best regards,
+
+Toon
+
+Poster presentation dates
+Dear students,
+
+
+
+Please find the schedule below for the poster presentations. You are expected to actively participate during your own presentation slot. Attendance during the other slots is allowed, but optional.
+
+
+
+Best regards,
+
+Toon
+
+
+
+
+
+      Group
+
+Name
+
+
+
+Poster presentation date
+
+   3
+
+Sarikakis
+
+Ilias
+
+21/5; 9:00 ; G004
+
+   
+
+
+
+
+
+
+
+   4
+
+Vandenbroeke
+
+Stein
+
+21/5; 9:00 ; G004
+
+   4
+
+Leirs
+
+Liam
+
+ 
+
+   4
+
+Van den Broeck
+
+Niels
+
+ 
+
+   
+
+
+
+
+
+
+
+   7
+
+Vleminckx
+
+Inte
+
+21/5; 9:00 ; G004
+
+   7
+
+De Maeyer
+
+Jonas
+
+ 
+
+   
+
+
+
+
+
+
+
+   1a
+
+Ellina
+
+Konstantina
+
+22/5; 9:00; G005
+
+   1a
+
+De Vicente Abad
+
+Pablo
+
+ 
+
+   
+
+
+
+
+
+
+
+   2
+
+Ndagijimana
+
+Marie
+
+22/5; 9:00; G005
+
+   
+
+
+
+
+
+
+
+   6
+
+Sjunnesson
+
+Norea
+
+22/5; 9:00; G005
+
+   6
+
+Janeva
+
+Martina
+
+ 
+
+   
+
+
+
+
+
+
+
+   5
+
+Alramli
+
+Hala
+
+24/6; 10:00; room TBD
+
+   5
+
+Jashanica
+
+Arbesa
+
+ 
+
+   5
+
+Herman
+
+Saartje
+
+ 
+
+   5
+
+Bibi
+
+Asima
+
+ 
+
+   
+
+
+
+
+
+
+
+   1b
+
+Takoudjou Nde
+
+Kenneth
+
+26/6; 10:00; room TBD
+
+   1b
+
+Bakhtiyorov
+
+Shakhzodbek
+
+ 
+
+   
+
+
+
+
+
+
+
+   8
+
+Yandouzi
+
+Achraf
+
+26/6; 10:00; room TBD
+
+   8
+
+Galanxhi
+
+Xhejms
+
+
+

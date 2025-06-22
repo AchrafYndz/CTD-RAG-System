@@ -1,0 +1,90 @@
+[Title] Videos for commenting and one question
+[Author] Toon Calders
+
+Videos for commenting and one question
+Dear students,
+
+
+
+Many thanks to all of you for submitting the videos for batch 2 of the papers in time. Each of you will now get assigned one presentation for commenting and posing one question. Please find below the assignment of presentations to each of you. This assignment is individual. That is, each person is expected to write an individual evaluation of the presentation.
+
+These evaluations will not be anonimous, although when sharing the feedbacks with the groups I will not reveil which comment is from whom (but given that the assignment is known, privacy is limited). Be honest, but constructive in your feedback.
+
+You are also expected to formulate one question about the paper. Make sure that your question allows for an answer of reasonable length (for instance: "Did they use GPT 3.5 or GPT 4o?" is not a good question as it can be answered in 1 second.)
+
+
+
+Where to find what?
+
+The presentations are in the folder "Videos for assignment 2" on the course page on Blackboard.
+To upload your evaluation and question, there will be an assignment in the folder "Tests, peer evaluations and upload zone".
+The paper that got assigned to you: see below.
+Deadline for submitting the evaluation: 18/4 23:59.
+
+
+
+Best regards,
+
+Toon Calders
+
+
+
+Measuring Fairness with Biased Rulers: A Comparative Study on Bias Metrics for Pre-trained Language Models
+
+Saartje	Herman
+
+Inte	Vleminckx
+
+Martina	Janeva
+
+
+
+Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes
+
+Takoudjou Nde	Kenneth
+
+Leirs	Liam
+
+Niels	Van den Broeck
+
+Konstantina	Ellina
+
+
+
+On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
+
+Arbesa	Jashanica
+
+Ilias	Sarikakis
+
+Xhejms	Galanxhi
+
+
+
+An empirical study of LLaMA3 quantization: from LLMs to MLLMs
+
+Pablo	De Vicente Abad
+
+Norea	Sjunnesson
+
+Jonas	De Maeyer
+
+
+
+Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
+
+Stein	Vandenbroeke
+
+Marie	Ndagijimana
+
+Asima	Bibi
+
+
+
+Red Teaming Language Models with Language Models
+
+Shakhzodbek	Bakhtiyorov
+
+Hala	Alramli
+
+Achraf	Yandouzi
