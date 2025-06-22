@@ -2,6 +2,10 @@ import streamlit as st
 import sys
 import os
 
+if sys.platform == 'linux':
+    __import__('pysqlite3')
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from courserag.core.rag_system import RAGSystem
