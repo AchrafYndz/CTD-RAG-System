@@ -1,0 +1,55 @@
+[Title] Group assignments first presentation
+
+[Group] 1 — Presentation Date: 27/2
+Members:
+- Jonas De Maeyer
+- Ndagijimana Marie Ange
+- Takoudjou Nde Kenneth
+Paper:
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+[Group] 2 — Presentation Date: 27/2
+Members:
+- Niels Van den Broeck
+- Shakhzodbek Bakhtiyorov
+- Stein Vandenbroeke
+Paper:
+Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+
+[Group] 3 — Presentation Date: 6/3
+Members:
+- Achraf Yandouzi
+- Asima Bibi
+- Ilias Sarikakis
+Paper:
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+
+[Group] 4 — Presentation Date: 6/3
+Members:
+- Liam Leirs
+- Arbesa
+- Hala Alramli
+Paper:
+Language Models are Few-Shot Learners (GPT-3)
+
+[Group] 5 — Presentation Date: 13/3
+Members:
+- Norea Sjunnesson
+- Xhejms Galanxhi
+- Saartje Herman
+Paper:
+Training language models to follow instructions with human feedback
+
+[Group] 6 — Presentation Date: 13/3
+Members:
+- Saitcan Baskol
+- Pablo de Vicente Abad
+- Inte Vleminckx
+Paper:
+Sparks of Artificial General Intelligence: Early experiments with GPT-4
+
+[Group] 7 — Presentation Date: TBD:
+Members:
+- Ellina Konstantina
+Paper:
+Byte-pair encoding

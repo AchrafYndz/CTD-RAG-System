@@ -1,0 +1,74 @@
+[Title] Poster (and third) presentation schedule
+
+[Group] 3
+Date: 21/5
+Time: 9:00
+Room: G004
+Members:
+- Sarikakis Ilias
+
+[Group] 4
+Date: 21/5
+Time: 9:00
+Room: G004
+Members:
+- Vandenbroeke Stein
+- Leirs Liam
+- Van den Broeck Niels
+
+[Group] 7
+Date: 21/5
+Time: 9:00
+Room: G004
+Members:
+- Vleminckx Inte
+- De Maeyer Jonas
+
+[Group] 1a
+Date: 22/5
+Time: 9:00
+Room: G005
+Members:
+- Ellina Konstantina
+- De Vicente Abad Pablo
+
+[Group] 2
+Date: 22/5
+Time: 9:00
+Room: G005
+Members:
+- Ndagijimana Marie
+
+[Group] 6
+Date: 22/5
+Time: 9:00
+Room: G005
+Members:
+- Sjunnesson Norea
+- Janeva Martina
+
+[Group] 5
+Date: 24/6
+Time: 10:00
+Room: room TBD
+Members:
+- Alramli Hala
+- Jashanica Arbesa
+- Herman Saartje
+- Bibi Asima
+
+[Group] 1b
+Date: 26/6
+Time: 10:00
+Room: room TBD
+Members:
+- Takoudjou Nde Kenneth
+- Bakhtiyorov Shakhzodbek
+
+[Group] 8
+Date: 26/6
+Time: 10:00
+Room: room TBD
+Members:
+- Yandouzi Achraf
+- Galanxhi Xhejms

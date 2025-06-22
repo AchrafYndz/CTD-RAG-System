@@ -1,0 +1,50 @@
+[Title] Assignments for commenting or commenting and posing one question for a presentation video of batch 2
+
+[Assignment] 1
+Paper:
+Measuring Fairness with Biased Rulers: A Comparative Study on Bias Metrics for Pre-trained Language Models
+Assigned to:
+- Saartje Herman
+- Inte Vleminckx
+- Martina Janeva
+
+[Assignment] 2
+Paper:
+Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes
+Assigned to:
+- Takoudjou Nde Kenneth
+- Leirs Liam
+- Niels Van den Broeck
+- Konstantina Ellina
+
+[Assignment] 3
+Paper:
+On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
+Assigned to:
+- Arbesa Jashanica
+- Ilias Sarikakis
+- Xhejms Galanxhi
+
+[Assignment] 4
+Paper:
+An empirical study of LLaMA3 quantization: from LLMs to MLLMs
+Assigned to:
+- Pablo De Vicente Abad
+- Norea Sjunnesson
+- Jonas De Maeyer
+
+[Assignment] 5
+Paper:
+Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
+Assigned to:
+- Stein Vandenbroeke
+- Marie Ndagijimana
+- Asima Bibi
+
+[Assignment] 6
+Paper:
+Red Teaming Language Models with Language Models
+Assigned to:
+- Shakhzodbek Bakhtiyorov
+- Hala Alramli
+- Achraf Yandouzi
