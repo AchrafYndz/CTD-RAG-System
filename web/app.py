@@ -1,12 +1,12 @@
 import streamlit as st
-import os
 import sys
+import os
 
-sys.path.append(os.path.dirname(__file__))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from build_rag_system import load_documents, split_documents, get_vector_store, setup_rag_chain, ask_rag, ask_normal_gpt
+from courserag.core.rag_system import RAGSystem
 
-PREPROCESSED_DATA_DIR = "preprocessed-data"
+PREPROCESSED_DATA_DIR = "data/processed"
 
 st.set_page_config(
     page_title="CourseGPT",
@@ -15,14 +15,12 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Load University of Antwerp themed CSS from external file
 def load_css(file_name):
-    """Load CSS from external file"""
     css_file_path = os.path.join(os.path.dirname(__file__), file_name)
     with open(css_file_path) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-load_css('styles.css')
+load_css('static/styles.css')
 
 @st.cache_resource
 def initialize_rag_system():
@@ -30,13 +28,13 @@ def initialize_rag_system():
         st.error("OpenAI API key not found. Please set the OPENAI_API_KEY environment variable.")
         st.stop()
 
-    documents = load_documents(PREPROCESSED_DATA_DIR)
-    chunks = split_documents(documents)
-
-    vector_store = get_vector_store(chunks)
-
-    rag_chain = setup_rag_chain(vector_store)
-    return rag_chain
+    try:
+        rag_system = RAGSystem(PREPROCESSED_DATA_DIR)
+        rag_system.initialize()
+        return rag_system
+    except Exception as e:
+        st.error(f"Error initializing RAG system: {e}")
+        st.stop()
 
 st.markdown("""
 <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
@@ -69,7 +67,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-rag_chain = initialize_rag_system()
+rag_system = initialize_rag_system()
 
 user_question = st.text_area(
     "What would you like to know about the course?",
@@ -87,12 +85,17 @@ if st.button("Ask CourseGPT", key="ask_button"):
 
         st.subheader("CourseGPT (RAG) Answer:")
         with st.spinner("CourseGPT is thinking... (Retrieving from course material)"):
-            rag_answer = ask_rag(user_question, rag_chain)
+            comparison = rag_system.compare_with_normal_gpt(user_question)
+            rag_answer = comparison["rag_answer"]
+            sources = comparison.get("sources", [])
             st.info(rag_answer)
+            
+            if sources:
+                st.caption(f"**Sources:** {', '.join(sources)}")
 
         st.subheader("General AI Answer (No Course Context):")
         with st.spinner("General AI is thinking..."):
-            normal_gpt_answer = ask_normal_gpt(user_question)
+            normal_gpt_answer = comparison["normal_gpt_answer"]
             st.warning(normal_gpt_answer)
     else:
         st.warning("Please enter a question to get started!")
