@@ -1,0 +1,50 @@
+[Title] Group assignments second presentation (video)
+
+[Group] 1 — Presentation Date: 2/4
+Members:
+- Konstantina Ellina
+- Kenneth Takoudjou Nde
+- Shakhzodbek Bakhtiyorov
+Paper:
+Measuring Fairness with Biased Rulers: A Comparative Study on Bias Metrics for Pre-trained Language Models
+
+[Group] 2 — Presentation Date: 2/4
+Members:
+- Stein Vandenbroeke
+- Hala Alramli
+- Pablo De Vicente Abad
+- Norea Sjunnesson
+Paper:
+Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes
+
+[Group] 3 — Presentation Date: 2/4
+Members:
+- Marie Ndagijimana
+- Achraf Yandouzi
+- Liam Leirs
+Paper:
+On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
+
+[Group] 4 — Presentation Date: 2/4
+Members:
+- Arbesa Jashanica
+- Saartje Herman
+- Inte Vleminckx
+Paper:
+An empirical study of LLaMA3 quantization: from LLMs to MLLMs
+
+[Group] 5 — Presentation Date: 2/4
+Members:
+- Ilias Sarikakis
+- Xhejms Galanxhi
+- Martina Janeva
+Paper:
+Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
+
+[Group] 6 — Presentation Date: 2/4
+Members:
+- Jonas De Maeyer
+- Niels Van den Broeck
+- Asima Bibi
+Paper:
+Red Teaming Language Models with Language Models

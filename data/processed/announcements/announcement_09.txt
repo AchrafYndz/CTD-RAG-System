@@ -3,13 +3,7 @@
 
 Course planning for the next weeks
 Dear students,
-
-
-
 Please find below the planning for the next weeks of the course:
-
-
-
 Thursday 24/4:
 8:30 Invited speaker Ewoenam Tokpo (former phd student, currently working as an ML-engineer at CrossLang)
 After the invited talk I will introduce the third and last assignment
@@ -17,12 +11,6 @@ Wednesday 30/4:
 9:00 Invited speaker Pieter Delobelle (Aleph Alpha). Pieter is one of the authors of the popular Dutch language model RobBERT.
 No lectures on 8/5 and 15/5 ; time to work on the project
 Week of 19/5 : final presentations
-
-
 Also the third project will be a group project, but now you will be allowed to chose the group division yourself. The deadline for the third assignment is negotiable; groups with multiple project deadlines in May but few exams in June can propose a date in the exam period.
-
-
-
 Best regards,
-
 Toon Calders
