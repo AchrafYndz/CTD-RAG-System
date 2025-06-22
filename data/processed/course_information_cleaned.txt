@@ -1,62 +1,23 @@
 Current Trends in Data Science and Artificial Intelligence
 2024 - 2025
-Studiegidsnummer:
-
-2000WETCTD
-
-Vakgebied:
-
-Informatica
-
-Semester:
-
-2E SEM
-
-Contacturen:
-
-60
-
-Studiepunten:
-
-6
-
-Studiebelastingsuren:
-
-168
-
-Contractrestricties:
-
-Geen contractrestrictie
-
-Instructietaal:
-
-ENG
-
-Lesgevers:
-
-T
-Toon Calders
-
-Examen:
-
-2e semester
-
+Course Code: 2000WETCTD
+Study Domain: Computer Science
+Semester: 2E SEM
+Contact Hours: 60
+Credits: 6
+Study Load (hours): 168
+Contract Restrictions: No contract restriction
+Language of Instructions: ENG
+Lecturer(s): Toon Calders
+Examperiod: exam in the 2nd semester
 EVEN
-Tweejaarlijks opleidingsonderdeel:
-
-Gedoceerd in acad.jaar aanvangend in even jaar
-
-Deze beschrijving is alleen in het Engels.
+Bi-annual course: Thought in academic years starting in an even year
 1. Prerequisites *
-speaking and writing of:
-English
+speaking and writing of: English
 specific prerequisites for this course
 * Programming skills (Python/Java/C/C++)
-
 * Data structures, Algorithms, Complexity
-
 * Basic notions of Artificial Intelligence, Data Mining, Machine Learning
-
 2. Learning outcomes *
 be aware of recent developments in the field of data science
 be able to follow the rapidly expanding literature in our field
@@ -65,32 +26,21 @@ find, select, and synthesise relevant scientific literature in the context of th
 find, select, and synthesise relevant scientific literature in the context of the selected topics of the course
 3. Course contents *
 The course is taught bi-annually and covers one or more current topics.
-
 For the year 2022-2023 the topic will be causal inference and causal machine learning. Causal machine learning takes into account the causal relationships between the variables in the data. This is important because machine learning algorithms often have to work with observational datasets instead of datasets obtained by randomized trials, which may lead to misleading results if causality is not taken into account. Causal inference is a hot topic; for instance in 2021, the Nobel prize in Economic Sciences was awarded to three economists—Joshua Angrist, David Card, and Guido Imbens for their work on causal inference.
-
 In this year's edition of the course we will learn techniques to represent causal models, correct for confounders, and identify causal effects based on statistical measures. We will see several applications , including in fairness and recommender systems.
-
-Some examples of topics that were taught in previous editions can be found below:
-
-In the academic year 2016-2017, we covered the following four topics:
-
+Some examples of topics that were taught in previous editions can be found below: In the academic year 2016-2017, we covered the following four topics:
 Social Network Analysis,
-Data Privacy and Protection and the GDPR, 
+Data Privacy and Protection and the GDPR,
 Artificial Neural Networks and Deep Learning (with guest lecture by Google's DeepMind).
 Chatbots and Conversational Interfaces.
-In the academic year 2018-2019, we covered the following topics:
-
-Privacy-aware machine learning techniques
+In the academic year 2018-2019, we covered the following topics: Privacy-aware machine learning techniques
 Ethical machine learning
 GDPR
-In the academic year 2020-2021, we covered the following topics:
-
-Fair machine learning
+In the academic year 2020-2021, we covered the following topics: Fair machine learning
 Adversarial attacks of neural networks
 Filter bubbles and echo chambers
 Explainable Artificial Intelligence
 Students will work in small groups on the topics. Each group will read and study three papers in detail and present the material covered by the papers. This will be done through a variety of presentation forms: presentation with slides, presentation with poster, and a report. For one of the topics (the last one) the group will also get some hands-on experience and reproduce and extend the empirical validation or simulation in the paper.
-
 4. International dimension *
 This course stimulates international and intercultural competences.
 Students use course materials in a foreign language.
@@ -113,11 +63,8 @@ In group
 Directed self-study
 5.2 Planned learning activities and teaching methods
 We will cover one or more emerging  data science topics.
-
 Classes consist of introduction lectures, guest lectures of experts, and student presentations.
-
 Students will have to read and present recent scientific articles, individually and in group, and write reports.
-
 5.3 Facilities for working students *
 Classroom activities
 no specific facilities
@@ -134,24 +81,16 @@ Other assessment methods
 Presentation (no second assessment period)
 6.2 Assessment criteria *
 Student will be evaluated on the quality of their reports, presentations as well as their participatiion in class.
-
 Copied Code - Code created by Generative AI
-
-For implementations supporting the project, students may copy code from the internet, but must do so explicit attribution of the source where it is copied from. Students may use generative AI tools for the code adopted in their project, but must do so with explicit acknowledgment, i.e. it must be clearly indicated which code was created by which tools. Students may be asked to elaborate on how they used generative AI.  
-
+For implementations supporting the project, students may copy code from the internet, but must do so explicit attribution of the source where it is copied from. Students may use generative AI tools for the code adopted in their project, but must do so with explicit acknowledgment, i.e. it must be clearly indicated which code was created by which tools. Students may be asked to elaborate on how they used generative AI.
 Support from generative AI
-
-Students may use generative AI tools as for writing reports, similar to initial search engines such as Google and for checking grammar and spelling. Students may be asked to elaborate on how they used generative AI.     
-
+Students may use generative AI tools as for writing reports, similar to initial search engines such as Google and for checking grammar and spelling. Students may be asked to elaborate on how they used generative AI.
 7. Study material
 7.1 Required reading *
 All required reading material will be made available online.
-
 7.2 Optional reading
 8. Contact information *
 Prof. dr. Toon Calders (toon.calders@uantwerpen.be)
-
 Prof. dr. Bart Goethals (bart.goethals@uantwerpen.be)
-
 9. Tutoring
 Questions can be addressed to the lecturer and assistants by email or after making an appointment.
