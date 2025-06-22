@@ -133,7 +133,6 @@ def write_commenting_assignments(input_path, output_path):
     current_reviewers = []
 
     for line in data_lines:
-        # Heuristic: long lines = paper title
         if re.match(r"^[A-Z].{10,}", line) and len(line.split()) > 4:
             if current_paper and current_reviewers:
                 paper_assignments.append((current_paper, current_reviewers))
@@ -164,9 +163,6 @@ def write_commenting_assignments(input_path, output_path):
     print(f"✅ Commenting assignments written to: {output_path}")
 
 def write_poster_schedule(input_path, output_path):
-    import re
-    from collections import defaultdict
-
     with open(input_path, "r", encoding="utf-8") as f:
         content = f.read()
 

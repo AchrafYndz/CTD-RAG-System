@@ -1,0 +1,28 @@
+Dear students,
+
+Please find attached the preliminary evaluation of your recorded presentation. Please do not hesitate to contact me if anything is unclear.
+The peer review and the questions will follow on Saturday, once the deadline for sending the peer evaluations is over.
+
+The evaluation is preliminary as you are allowed to update the presentation based on the comments. This is not compulsory; you can leave the presentation as-is and only submit the answer to the question you select. If you decide to update your presentation, please clearly indicate which changes you made in the comments of your submission.
+
+21/4-25/4: your group will receive feedback from 3 other students and myself, and 3 questions. At this stage you may improve your presentation. For one of the 3 questions you receive, answer it in a separate video (Guideline: not more than 5 minutes is expected for the second video).
+
+Best regards,
+Toon Calders
+---
+Group 5 : 15/20
+
+Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
+Ilias Sarikakis
+Xhejms Galanxhi
+Martina Janeva
+
+Well-prepared and caefully designed presentation. All main points are covered without going into too many unneccessary details. The paper was relatively straightforward with not too many technical details, but nevertheless there were important nuances (eg difference with traditional privacy notions) that were properly captured.
+
+Some points for improvement:
+- although the presentation was overall very clear, it could benefit from adding in additional examples. The second speaker starts off very well by illustrating the different tiers with examples, but unfortunately for the later tiers, fewer examples are included. It would have been instructive, especially for tier 4, to see an example of a meeting that needed to be summarized (like there were examples in the appendix)
+- when discussing the results, it would be helpful to include explicitly in the slide what measure is presented (correlation with human judgement, accuracy of predicting if an information is private or not, ...) Most of the times it is mentioned in the narrative, but it is easy to miss those mentions or they may come after the audience already started scrutinizing the tables.
+- Some information that in my opinion is somewhat important, and that is missing (although there is a chance it was mentioned somewhere but I missed it): on how many scenario's were the experiments executed and where did the scenarios come from?
+- It's outside of the scope of the paper, but nevertheless it would be interesting to know your thoughts on the validity of the experiments. For instance: when comparing with human judgement, what is the inter-annotator agreement? That is: are the humans always correct? For the labeled problems: where did they come from? Were they automatically generated? Human generated? Do they span a wide variety of domains or are they mainly restricted to the medical domain that was used in the examples?
+
+Q: I would like to know how many instances each of the tiers contains, how they were generated, and for the human annotations, what were the inter-annotator agreement rates. What is your opinion about the validity of the experiments? Should they be imrpoved and if so, how?

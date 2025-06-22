@@ -1,0 +1,49 @@
+Dear students,
+
+Please find attached the peer evaluations of your fellow students for the recorded presentation (assignment 2) and the questions. The order between the students' comments is random but consistent throughout the evaluation questions. My own question is the last one. As said before, you are free to select any of the questions.
+
+Best regards,
+Toon Calders
+---
+Group 5
+Paper: Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
+
+
+* My question to the presenters is the following:
+1. The paper talks about CONFAIDE, which checks how well language models understand what should be kept private depending on the situation. What does this test show about where these models fail when it comes to protecting private information, and why should we care about that in real-life situations like using AI in emails or meetings?
+
+2. How did human judgment transform into the evaluation of Tier 1 through Tier 3?
+
+3. How was it ensured that tier 1 and 2 only outputed one of the possible options? And what with the results where it did not? <br>
+
+4. I would like to know how many instances each of the tiers contains, how they were generated, and for the human annotations, what were the inter-annotator agreement rates. What is your opinion about the validity of the experiments? Should they be improved and if so, how?
+
+* The presentation was clear and easy to follow: 4-4-5
+* The quality of the slides was high: 5-4-4
+* The students were clearly knowledgeable regarding the content of the paper: 5-5-4
+
+* Positive points about the presentation:
+1. - The presentation has clear and detailed examples (real-world scenarios) which help easy understanding.
+   - Important concepts are highlighted in red, which helps to draw attention to key terms.
+   - Findings clearly show which models perform better and where they fail.
+
+2. - The presentation slides and visuals were clear and engaging, which helped to maintain the audience's attention.
+   - The presentation covered the research paper very well within the given time, with good structure and flow.
+   - The presentation breaks down the complex concepts of the paper into simple content with clear narration.
+
+3. - The conclusion contained all importend aspects
+   - The different tiers where clearly explained
+   - The introduction explains clearly the goal of the paper and what is researched
+
+
+* Points for improvement; constructive criticism:
+1. - The presenters were speaking very fast, and it was hard to follow up. I think it is because of limited time.
+   - Inconsistency in terminology: the slides switch in saying â€œsensitive infoâ€ and â€œprivate infoâ€ I think it is better to focus on one term.
+
+2. - The first presenter was explaining a little fast, so sometimes I need to repeat a certain section in order to understand.
+   - The voice of the second speaker was a little slower compared to other team members.
+   - There were a few images in the results section that were a little hard to understand. In my opinion, easy example images should have been used for easy understanding.
+
+3. - the result slides are missing information like how large was the dataset to calculate the scores
+   - Some actual examples of promps and answers of tier 3 and 4 would be usefull to understead how certain things where stated to the model like "how is the model told that not everyone knows all secrets"
+   - The video volume could be adjusted so every person has the same audio level
