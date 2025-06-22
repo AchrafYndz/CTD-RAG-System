@@ -2,7 +2,6 @@ import os
 from typing import List, Optional
 from langchain_core.documents import Document
 from langchain_community.document_loaders import TextLoader, PyPDFLoader
-from langchain_community.document_loaders import CSVLoader, UnstructuredMarkdownLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 from courserag.config.rag_config import config
@@ -24,8 +23,6 @@ class DocumentLoader:
         self.loader_map = {
             'txt': self._load_text,
             'pdf': self._load_pdf,
-            'md': self._load_markdown,
-            'csv': self._load_csv,
         }
     
     def load_documents(self, data_dir: str) -> List[Document]:
@@ -113,15 +110,6 @@ class DocumentLoader:
             page.metadata['total_pages'] = len(pages)
         
         return pages
-    
-    def _load_markdown(self, file_path: str) -> List[Document]:
-        loader = UnstructuredMarkdownLoader(file_path)
-        return loader.load()
-    
-    def _load_csv(self, file_path: str) -> List[Document]:
-        loader = CSVLoader(file_path)
-        return loader.load()
-
 
 def load_documents(data_dir: str) -> List[Document]:
     loader = DocumentLoader()
