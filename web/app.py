@@ -10,7 +10,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from courserag.core.rag_system import RAGSystem
 
-PREPROCESSED_DATA_DIR = "data/processed"
+CLEAN_DATA_DIR = "data/processed"
 
 st.set_page_config(
     page_title="CourseGPT",
@@ -33,7 +33,7 @@ def initialize_rag_system():
         st.stop()
 
     try:
-        rag_system = RAGSystem(PREPROCESSED_DATA_DIR)
+        rag_system = RAGSystem(CLEAN_DATA_DIR)
         rag_system.initialize()
         return rag_system
     except Exception as e:

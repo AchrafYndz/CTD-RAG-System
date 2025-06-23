@@ -3,7 +3,7 @@ from typing import Dict, Any
 
 @dataclass
 class RAGConfig:
-    PREPROCESSED_DATA_DIR: str = "data/processed"
+    CLEAN_DATA_DIR: str = "data/clean"
     CHROMA_DB_PATH: str = "./chroma_db"
     CHUNKS_CACHE_PATH: str = "data/cache/cached_chunks.pkl"
     CACHE_METADATA_PATH: str = "data/cache/cache_metadata.json"

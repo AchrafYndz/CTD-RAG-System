@@ -18,7 +18,7 @@ dotenv.load_dotenv()
 
 class RAGSystem:
     def __init__(self, data_dir: str = None):
-        self.data_dir = data_dir or config.PREPROCESSED_DATA_DIR
+        self.data_dir = data_dir or config.CLEAN_DATA_DIR
         self.document_loader = DocumentLoader()
         self.vector_store = ChromaVectorStore()
         self.rag_chain = RAGChain()

@@ -48,7 +48,7 @@ CTD-RAG-System/
 │
 ├── data/                        # Data directories
 │   ├── raw/                     
-│   ├── processed/               
+│   ├── clean/               
 │   └── cache/                   
 │
 ├── logs/                        # Log files

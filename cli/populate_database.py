@@ -76,8 +76,8 @@ def main():
     
     parser.add_argument(
         "--data-dir",
-        default=config.PREPROCESSED_DATA_DIR,
-        help=f"Directory containing documents (default: {config.PREPROCESSED_DATA_DIR})"
+        default=config.CLEAN_DATA_DIR,
+        help=f"Directory containing documents (default: {config.CLEAN_DATA_DIR})"
     )
     
     parser.add_argument(

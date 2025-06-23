@@ -6,13 +6,13 @@ import math
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-RAW_DATA_DIR = "raw-data"
+RAW_DATA_DIR = "data/raw"
 VIDEOS_DIR = os.path.join(RAW_DATA_DIR, "videos")
 AUDIO_DIR = os.path.join(RAW_DATA_DIR, "audio")
 
-PREPROCESSED_DATA_DIR = "preprocessed-data"
-TRANSCRIPTS_DIR = os.path.join(PREPROCESSED_DATA_DIR, "transcripts")
-TEMP_AUDIO_DIR = os.path.join(PREPROCESSED_DATA_DIR, "temp_audio")
+CLEAN_DATA_DIR = "data/clean"
+TRANSCRIPTS_DIR = os.path.join(CLEAN_DATA_DIR, "transcripts")
+TEMP_AUDIO_DIR = os.path.join(CLEAN_DATA_DIR, "temp_audio")
 
 os.makedirs(RAW_DATA_DIR, exist_ok=True)
 os.makedirs(AUDIO_DIR, exist_ok=True)
