@@ -1,7 +1,7 @@
 import os
 
 INPUT_PATH = "data/raw/course_information.txt"
-OUTPUT_PATH = "data/processed/course_information_cleaned.txt"
+OUTPUT_PATH = "data/clean/course_information_cleaned.txt"
 os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
 def preprocess_course_info(input_path, output_path):
