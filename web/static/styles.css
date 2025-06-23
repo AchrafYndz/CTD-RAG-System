@@ -106,4 +106,8 @@ a:hover {
     padding-top: 20px;
     margin-top: 30px;
     color: var(--uantwerp-dark-blue);
+}
+
+li {
+    color: #333 !important;
 } 
