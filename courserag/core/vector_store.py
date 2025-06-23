@@ -62,6 +62,11 @@ class ChromaVectorStore:
             raise RuntimeError("Vector store not initialized. Call initialize() first.")
         
         logger.info(f"Adding {len(chunks)} new documents to vector store...")
+        source_files = sorted(list(set(doc.metadata.get('source', 'Unknown') for doc in chunks)))
+        logger.info(f"Source files for this batch:")
+        for file in source_files:
+            logger.info(f"  - {file}")
+
         return self._add_documents_batch(chunks)
     
     def similarity_search(self, query: str, k: int = None) -> List[Document]:
