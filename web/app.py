@@ -10,7 +10,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from courserag.core.rag_system import RAGSystem
 
-CLEAN_DATA_DIR = "data/processed"
+CLEAN_DATA_DIR = "data/clean"
 
 st.set_page_config(
     page_title="CourseGPT",
