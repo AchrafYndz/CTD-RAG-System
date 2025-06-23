@@ -11,7 +11,7 @@ class RAGConfig:
     CHUNK_SIZE: int = 1000
     CHUNK_OVERLAP: int = 100
     
-    EMBEDDING_MODEL: str = "text-embedding-3-small"
+    EMBEDDING_MODEL: str = "text-embedding-ada-002"
     
     LLM_MODEL: str = "gpt-3.5-turbo"
     TEMPERATURE: float = 0
