@@ -8,7 +8,7 @@ Toon Calders
 Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
 Ilias Sarikakis, Xhejms Galanxhi, Martina Janeva
 
-Grade: 12/20
+Grade: ??/20
 
 Several concepts are not properly explained; some examples:
 - What is a "Pew study"?

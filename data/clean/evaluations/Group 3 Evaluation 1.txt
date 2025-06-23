@@ -10,7 +10,7 @@ The evaluation is preliminary as you are allowed to update the presentation base
 Best regards,
 Toon Calders
 ---
-Group 3: 14/20
+Group 3: ??/20
 
 On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
 

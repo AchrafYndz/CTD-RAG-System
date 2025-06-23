@@ -12,7 +12,7 @@ Toon Calders
 Group 5
 Training language models to follow instructions with human feedback
 
-Scores: 14/20
+Scores: ??/20
 Norea Sjunnesson - Xhejms Galanxhi - Saartje Herman
 
 =================================================================================================

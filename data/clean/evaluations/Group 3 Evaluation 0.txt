@@ -14,9 +14,9 @@ Achraf Yandouzi, Asima Bibi, Ilias Sarikakis
 Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
 
 Scores: 
-Achraf Yandouzi: 17/20 
-Asima Bibi  15/20
-Ilias Sarikakis: 17/20
+Achraf Yandouzi: ??/20 
+Asima Bibi  ??/20
+Ilias Sarikakis: ??/20
 
 Rationale for score differentiation: 
 - Asimi's part of the presentation was taken over by a team member. In a one-on-one discussion afterwards it became clear that Asimi's knowledge of the paper was at par with that of the team members.

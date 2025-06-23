@@ -10,7 +10,7 @@ The evaluation is preliminary as you are allowed to update the presentation base
 Best regards,
 Toon Calders
 ---
-Group 5 : 15/20
+Group 5 : ??/20
 
 Can LLMS keep a secret? Testing privacy implications of language models via contextual integrity theory
 Ilias Sarikakis
