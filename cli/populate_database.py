@@ -65,7 +65,7 @@ def populate_database(data_dir: str, force_refresh: bool = False, reset_db: bool
         logger.error("No chunks to add to database")
         return
     
-    vector_store.populate_if_empty(chunks)
+    vector_store.add_documents(chunks)
     
     info = vector_store.get_collection_info()
     logger.info(f"Database population complete. Collection info: {info}")
