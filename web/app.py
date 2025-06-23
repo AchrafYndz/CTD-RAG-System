@@ -97,7 +97,7 @@ if st.button("Ask CourseGPT", key="ask_button"):
             if sources:
                 st.caption(f"**Sources:** {', '.join(sources)}")
 
-        st.subheader("General AI Answer (No Course Context):")
+        st.subheader("General AI Answer:")
         with st.spinner("General AI is thinking..."):
             normal_gpt_answer = comparison["normal_gpt_answer"]
             st.warning(normal_gpt_answer)
