@@ -17,4 +17,5 @@ dependencies = [
     "python-dotenv>=1.1.0",
     "streamlit>=1.46.0",
     "pysqlite3-binary; sys_platform == 'linux'",
+    "pypdf>=5.6.1",
 ]
